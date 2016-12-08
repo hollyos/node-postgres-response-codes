@@ -15,12 +15,12 @@ Once you require this module, you may call it with either a PostgreSQL response 
 ### API Sample
 
 ```javascript
-const PostgresResponse = require('postgre-response');
+const PostgresResponse = require('postgres-response');
 
 // Print "Unique Violation"
 console.log(PostgresResponse['23505']);
 
-// Print 23505
+// Print "23505"
 console.log(PostgresResponse.UNIQUE_VIOLATION);
 ```
 
