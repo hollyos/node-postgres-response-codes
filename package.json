@@ -1,0 +1,42 @@
+{
+  "name": "postgres-response",
+  "version": "0.0.1",
+  "description": "Utility to interact with PostgreSQL response codes.",
+  "homepage": "https://github.com/badwolf7/node-postgres-response",
+  "author": "Holly Springsteen <hhspringsteen@gmail.com>",
+  "keywords": [
+    "postgres",
+    "postgresql",
+    "sql",
+    "response",
+    "codes",
+    "express"
+  ],
+  "license": "BSD-3-Clause",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/badwolf7/node-postgres-response"
+  },
+  "bugs": {
+    "url": "http://github.com/badwolf7/node-postgres-response/issues"
+  },
+  "contributors": [
+    {
+      "name": "Holly Springsteen",
+      "email": "hhspringsteen@gmail.com"
+    }
+  ],
+  "main": "./lib",
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "eslint": "^3.7.1",
+    "eslint-plugin-import": "^2.0.1",
+    "mocha": "latest",
+    "should": "latest"
+  }
+}
