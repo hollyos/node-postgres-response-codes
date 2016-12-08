@@ -1,6 +1,6 @@
 {
   "name": "postgres-response",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Utility to interact with PostgreSQL response codes.",
   "homepage": "https://github.com/badwolf7/node-postgres-response",
   "author": "Holly Springsteen <hhspringsteen@gmail.com>",
