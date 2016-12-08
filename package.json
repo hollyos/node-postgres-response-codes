@@ -1,10 +1,11 @@
 {
-  "name": "postgres-response",
-  "version": "0.1.2",
+  "name": "postgres-response-codes",
+  "version": "1.0.0",
   "description": "Utility to interact with PostgreSQL response codes.",
-  "homepage": "https://github.com/badwolf7/node-postgres-response",
+  "homepage": "https://github.com/badwolf7/node-postgres-response-codes",
   "author": "Holly Springsteen <hhspringsteen@gmail.com>",
   "keywords": [
+    "postgre",
     "postgres",
     "postgresql",
     "sql",
@@ -15,10 +16,10 @@
   "license": "BSD-3-Clause",
   "repository": {
     "type": "git",
-    "url": "https://github.com/badwolf7/node-postgres-response"
+    "url": "https://github.com/badwolf7/node-postgres-response-codes"
   },
   "bugs": {
-    "url": "http://github.com/badwolf7/node-postgres-response/issues"
+    "url": "http://github.com/badwolf7/node-postgres-response-codes/issues"
   },
   "contributors": [
     {
