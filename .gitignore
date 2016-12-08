@@ -1,2 +1,37 @@
-node_modules
+# The .gitignore file contains the files to be excluded from git source control. The .cfignore file contains the set of
+# files to ignore when deploying to Bluemix. The two list of files are similar but not the same. However, they should
+# be maintained in parallel. Any file that's added to one should be added to the other. If that file should not be
+# ignored in that particular file it should be moved to the appropriate section and commented out.
+
+####### Common Files (ignored by both .gitnore (Git) and .cfignore (Cloud Foundry) #######
+
+# Logs
+logs
+*.log
+
+# Dependency directory
+# https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
 .DS_Store
+DS_Store
+.sass-cache
+node_modules
+
+# Environment files
+env
+.env
+config/local.properties
+config/local.json
+
+# IntelliJ IDEA Files
+.idea
+*.iml
+
+# VS Code Files
+.vscode
+
+# VIM Files
+*.swp
+
+# Build output files
+out
+tmp
