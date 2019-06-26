@@ -4,7 +4,7 @@ Utility to interact with PostgreSQL response codes.
 
 ## Usage
 
-Once you require this module, you may call it with either a PostgreSQL response code or a response name. With a code, you will get the code name while with a code name you will get an HTTP code. It's that simple!!!
+Once you require this module, you may call it with either a PostgreSQL response code or a response name. With a code, you will get the code name while with a code name you will get a PostgreSQL response code. It's that simple!!!
 
 ## Resources
 
