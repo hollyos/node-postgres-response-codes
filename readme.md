@@ -8,7 +8,7 @@ Once you require this module, you may call it with either a PostgreSQL response 
 
 ## Resources
 
-* <https://www.postgresql.org/docs/9.6/static/errcodes-appendix.html>
+* <https://www.postgresql.org/docs/current/errcodes-appendix.html>
 
 ## API
 

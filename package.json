@@ -1,6 +1,6 @@
 {
   "name": "postgres-response-codes",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Utility to interact with PostgreSQL response codes.",
   "homepage": "https://github.com/badwolf7/node-postgres-response-codes",
   "author": "Holly Springsteen <hhspringsteen@gmail.com>",
@@ -16,10 +16,10 @@
   "license": "BSD-3-Clause",
   "repository": {
     "type": "git",
-    "url": "https://github.com/badwolf7/node-postgres-response-codes"
+    "url": "https://github.com/hollyos/node-postgres-response-codes"
   },
   "bugs": {
-    "url": "http://github.com/badwolf7/node-postgres-response-codes/issues"
+    "url": "http://github.com/hollyos/node-postgres-response-codes/issues"
   },
   "contributors": [
     {
@@ -39,5 +39,8 @@
     "eslint-plugin-import": "^2.0.1",
     "mocha": "latest",
     "should": "latest"
+  },
+  "dependencies": {
+    "@scarf/scarf": "^1.1.1"
   }
 }
