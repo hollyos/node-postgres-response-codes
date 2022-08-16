@@ -892,4 +892,4 @@ console.log(PostgresResponseCodes.UNIQUE_VIOLATION);
 
 ## Contributors
 
-* Holly Springsteen - <https://github.com/badwolf7>
+* Holly Springsteen - <https://github.com/hollyos>

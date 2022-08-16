@@ -1,8 +1,8 @@
 {
   "name": "postgres-response-codes",
-  "version": "1.1.0",
+  "version": "1.0.1",
   "description": "Utility to interact with PostgreSQL response codes.",
-  "homepage": "https://github.com/badwolf7/node-postgres-response-codes",
+  "homepage": "https://github.com/hollyos/node-postgres-response-codes",
   "author": "Holly Springsteen <hhspringsteen@gmail.com>",
   "keywords": [
     "postgre",
