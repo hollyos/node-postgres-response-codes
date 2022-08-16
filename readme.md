@@ -1,5 +1,8 @@
 # PostgreSQL Response Codes
 
+![Scarf: Downloads](https://scarf.sh/package/installs-badge/d5163d95-5abe-4fff-9bf9-4b9165587296) ![Scarf: Commercial Users](https://scarf.sh/package/company-badge/d5163d95-5abe-4fff-9bf9-4b9165587296)
+
+
 Utility to interact with PostgreSQL response codes.
 
 ## Usage
