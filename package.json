@@ -39,8 +39,5 @@
     "eslint-plugin-import": "^2.0.1",
     "mocha": "latest",
     "should": "latest"
-  },
-  "dependencies": {
-    "@scarf/scarf": "^1.1.1"
   }
 }

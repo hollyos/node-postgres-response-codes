@@ -1,7 +1,8 @@
 # PostgreSQL Response Codes
 
-![Scarf: Downloads](https://scarf.sh/package/installs-badge/d5163d95-5abe-4fff-9bf9-4b9165587296) ![Scarf: Commercial Users](https://scarf.sh/package/company-badge/d5163d95-5abe-4fff-9bf9-4b9165587296)
-
+> **psql version: 17**
+> updated: April 15, 2025
+> reference: https://www.postgresql.org/docs/17/errcodes-appendix.html
 
 Utility to interact with PostgreSQL response codes.
 
@@ -247,6 +248,9 @@ console.log(PostgresResponseCodes.UNIQUE_VIOLATION);
 '22023': 'Invalid Parameter Value',
 'INVALID_PARAMETER_VALUE': '22023',
 
+'22013': 'Invalid Preceding Or Following Size',
+'INVALID_PRECEDING_OR_FOLLOWING_SIZE': '22013',
+
 '2201B': 'Invalid Regular Expression',
 'INVALID_REGULAR_EXPRESSION': '2201B',
 
@@ -255,6 +259,12 @@ console.log(PostgresResponseCodes.UNIQUE_VIOLATION);
 
 '2201X': 'Invalid Row Count In Result Offset Clause',
 'INVALID_ROW_COUNT_IN_RESULT_OFFSET_CLAUSE': '2201X',
+
+'2202H': 'Invalid Tablesample Argument',
+'INVALID_TABLESAMPLE_ARGUMENT': '2202H',
+
+'2202G': 'Invalid Tablesample Repeat',
+'INVALID_TABLESAMPLE_REPEAT': '2202G',
 
 '22009': 'Invalid Time Zone Displacement Value',
 'INVALID_TIME_ZONE_DISPLACEMENT_VALUE': '22009',
@@ -273,6 +283,9 @@ console.log(PostgresResponseCodes.UNIQUE_VIOLATION);
 
 '22003': 'Numeric Value Out Of Range',
 'NUMERIC_VALUE_OUT_OF_RANGE': '22003',
+
+'2200H': 'Sequence Generator Limit Exceeded',
+'SEQUENCE_GENERATOR_LIMIT_EXCEEDED': '2200H',
 
 '22026': 'String Data Length Mismatch',
 'STRING_DATA_LENGTH_MISMATCH': '22026',
@@ -321,6 +334,57 @@ console.log(PostgresResponseCodes.UNIQUE_VIOLATION);
 
 '2200T': 'Invalid XML Processing Instruction',
 'INVALID_XML_PROCESSING_INSTRUCTION': '2200T',
+
+'22030': 'Duplicate Json Object Key Value',
+'DUPLICATE_JSON_OBJECT_KEY_VALUE': '22030',
+
+'22031': 'Invalid Argument For Sql Json Datetime Function',
+'INVALID_ARGUMENT_FOR_SQL_JSON_DATETIME_FUNCTION': '22031',
+
+'22032': 'Invalid Json Text',
+'INVALID_JSON_TEXT': '22032',
+
+'22033': 'Invalid Sql Json Subscript',
+'INVALID_SQL_JSON_SUBSCRIPT': '22033',
+
+'22034': 'More Than One Sql Json Item',
+'MORE_THAN_ONE_SQL_JSON_ITEM': '22034',
+
+'22035': 'No Sql Json Item',
+'NO_SQL_JSON_ITEM': '22035',
+
+'22036': 'Non Numeric Sql Json Item',
+'NON_NUMERIC_SQL_JSON_ITEM': '22036',
+
+'22037': 'Non Unique Keys In A Json Object',
+'NON_UNIQUE_KEYS_IN_A_JSON_OBJECT': '22037',
+
+'22038': 'Singleton Sql Json Item Required',
+'SINGLETON_SQL_JSON_ITEM_REQUIRED': '22038',
+
+'22039': 'Sql Json Array Not Found',
+'SQL_JSON_ARRAY_NOT_FOUND': '22039',
+
+'2203A': 'Sql Json Member Not Found',
+'SQL_JSON_MEMBER_NOT_FOUND': '2203A',
+
+'2203B': 'Sql Json Number Not Found',
+'SQL_JSON_NUMBER_NOT_FOUND': '2203B',
+
+'2203C': 'Sql Json Object Not Found',
+'SQL_JSON_OBJECT_NOT_FOUND': '2203C',
+
+'2203D': 'Too Many Json Array Elements',
+'TOO_MANY_JSON_ARRAY_ELEMENTS': '2203D',
+
+'2203E': 'Too Many Json Object Members',
+'TOO_MANY_JSON_OBJECT_MEMBERS': '2203E',
+
+'2203F': 'Sql Json Scalar Required',
+'SQL_JSON_SCALAR_REQUIRED': '2203F',
+
+'2203G': 'Sql Json Item Cannot Be Cast To Target Type',
+'SQL_JSON_ITEM_CANNOT_BE_CAST_TO_TARGET_TYPE': '2203G',
 ```
 
 ### Class 23 — Integrity Constraint Violation
@@ -390,6 +454,12 @@ console.log(PostgresResponseCodes.UNIQUE_VIOLATION);
 
 '25P02': 'In Failed SQL Transaction',
 'IN_FAILED_SQL_TRANSACTION': '25P02',
+
+'25P03': 'Idle In Transaction Session Timeout',
+'IDLE_IN_TRANSACTION_SESSION_TIMEOUT': '25P03',
+
+'25P04': 'Transaction Timeout',
+'TRANSACTION_TIMEOUT': '25P04',
 ```
 
 ### Class 26 — Invalid SQL Statement Name
@@ -495,6 +565,9 @@ console.log(PostgresResponseCodes.UNIQUE_VIOLATION);
 
 '39P02': 'SRF Protocol Violated',
 'SRF_PROTOCOL_VIOLATED': '39P02',
+
+'39P03': 'Event Trigger Protocol Violated',
+'EVENT_TRIGGER_PROTOCOL_VIOLATED': '39P03',
 ```
 
 ### Class 3B — Savepoint Exception
@@ -590,6 +663,9 @@ console.log(PostgresResponseCodes.UNIQUE_VIOLATION);
 
 '42809': 'Wrong Object Type',
 'WRONG_OBJECT_TYPE': '42809',
+
+'428C9': 'Generated Always',
+'GENERATED_ALWAYS': '428C9',
 
 '42703': 'Undefined Column',
 'UNDEFINED_COLUMN': '42703',
@@ -729,6 +805,9 @@ console.log(PostgresResponseCodes.UNIQUE_VIOLATION);
 
 '55P03': 'Lock Not Available',
 'LOCK_NOT_AVAILABLE': '55P03',
+
+'55P04': 'Unsafe New Enum Value Usage',
+'UNSAFE_NEW_ENUM_VALUE_USAGE': '55P04',
 ```
 
 ### Class 57 — Operator Intervention
@@ -751,6 +830,9 @@ console.log(PostgresResponseCodes.UNIQUE_VIOLATION);
 
 '57P04': 'Database Dropped',
 'DATABASE_DROPPED': '57P04',
+
+'57P05': 'Idle Session Timeout',
+'IDLE_SESSION_TIMEOUT': '57P05',
 ```
 
 ### Class 58 — System Error (errors external to PostgreSQL itself)
@@ -878,6 +960,9 @@ console.log(PostgresResponseCodes.UNIQUE_VIOLATION);
 
 'P0003': 'Too Many Rows',
 'TOO_MANY_ROWS': 'P0003',
+
+'P0004': 'Assert Failure',
+'ASSERT_FAILURE': 'P0004',
 ```
 
 ### Class XX — Internal Error
@@ -896,5 +981,3 @@ console.log(PostgresResponseCodes.UNIQUE_VIOLATION);
 ## Contributors
 
 * Holly Springsteen - <https://github.com/hollyos>
-
-<img referrerpolicy="no-referrer-when-downgrade" src="https://static.scarf.sh/a.png?x-pxid=10957dec-42da-481b-b8bf-b78d08902ea4" />
