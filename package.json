@@ -16,7 +16,7 @@
   "license": "BSD-3-Clause",
   "repository": {
     "type": "git",
-    "url": "https://github.com/hollyos/node-postgres-response-codes"
+    "url": "git+https://github.com/hollyos/node-postgres-response-codes.git"
   },
   "bugs": {
     "url": "http://github.com/hollyos/node-postgres-response-codes/issues"
