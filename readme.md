@@ -1,8 +1,10 @@
 # PostgreSQL Response Codes
 
 > **psql version: 17**
-> updated: April 15, 2025
-> reference: https://www.postgresql.org/docs/17/errcodes-appendix.html
+> 
+> **updated:** April 15, 2025
+> 
+> **reference:** https://www.postgresql.org/docs/17/errcodes-appendix.html
 
 Utility to interact with PostgreSQL response codes.
 
