@@ -35,7 +35,7 @@
     "test": "mocha"
   },
   "devDependencies": {
-    "eslint": "^6.6.0",
+    "eslint": "^9.32.0",
     "eslint-plugin-import": "^2.0.1",
     "mocha": "latest",
     "should": "latest"
